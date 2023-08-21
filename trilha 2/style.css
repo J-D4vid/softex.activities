@@ -1,0 +1,48 @@
+body{
+    padding: 0;
+    margin: 0;
+
+}
+nav{
+    background-image: url(https://1.bp.blogspot.com/-HJlkavtvM-U/UJ76LZkhrZI/AAAAAAAAdLk/FMSDKgblEM4/s1600/photography-in-paris-facebook-cover.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    width: 100vw;
+    height: 15vh;
+   
+} 
+
+section{
+    background-image: linear-gradient(to top left,rgb(107, 107, 107),rgba(250, 150, 0, 0.452)) ;
+    height: 75vh;
+    width: 80vw;
+    padding: 5vh 10vw;
+    display: flex;
+    
+}
+
+#form{
+    width: 50%;
+    border-right: 1px solid black;
+    
+}
+
+#form textarea{
+    display: block;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    width:35vw ;
+    height: 20vh;
+}
+
+#nome{
+    display: block;
+    width: 35vw;
+    height: 1.2vh;
+    margin-bottom: 1vh;
+}
+
+#ditados{
+    width: 50%;
+    text-align: center;
+}

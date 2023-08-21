@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav id="nav"></nav>
+    <section id="section">
+        <div id="form">
+            <span id="description"><strong> independente de qual estado ou cidade alguém seja, todos nós crescemos ouvindo os bons e velhos ditados populares, mas me diz... qual o melhor que você conhece?</strong></span>
+            <form>
+                <textarea id="ditado" placeholder="conte-nos o ditado aqui"></textarea>
+
+                <input type="text" name="nome" id="nome"placeholder="diga seu nome" required>
+
+                <input type="submit" id="btn" value="Enviar">
+            </form>
+        </div>
+        <div id="ditados">
+            <h1 id="tittle">Melhor ditado até o momento</h1>
+            <h3 >o ditado vai aqui...</h3>
+            <p id="autor"></p>
+        </div>
+    </section>
+
+    <script>
+        let texto = document.querySelector("h3")
+        let resposta = document.getElementById("ditado")
+        let btn = document.getElementById("btn")
+        let autor = document.getElementById("autor")
+        
+
+        
+        btn.addEventListener("click", function(e){
+            e.preventDefault();
+
+            let resposta = document.getElementById("ditado")
+            let ditado = resposta.value
+            texto.innerText = ditado
+            texto.style = "color:blue"
+            let nome = document.getElementById("nome")
+            let fonte = nome.value
+            autor.innerText = "fonte:" + fonte
+            autor.style = "text-align:start; margin-left:4vw;"
+            
+        })
+        
+        
+    </script>
+</body>
+</html>
