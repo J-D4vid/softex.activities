@@ -5,7 +5,7 @@
 //     return voto;
 // }
 function resposta(resposta, voto){
-    var resposta = window.prompt("gostaria de finalizar sua votação?(sim/não)")
+    var resposta =window.prompt("gostaria de finalizar sua votação?(sim/não)")
         if(resposta == "não"){
             voto [0] = Number(window.prompt("os candidatos e seus números para a votação serão: candidato Lucas de número 889; guilherme de número 847; geyson de número 515. caso deseje votar branco insira o número 0"))
             nulo -= 1

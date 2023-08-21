@@ -1,7 +1,7 @@
 function age(nome, nascimento){
     var nome = window.prompt("informe seu nome completo")
     var nascimento = Number(window.prompt("informe seu ano de nascimento."))
-    if(nascimento >= 1922 && nascimento <= 2021){
+    if(nascimento >=1922 && nascimento <= 2021){
         nascimento = 2022-nascimento;
         window.alert(`seu nome é ${nome}, você completou ou completará ${nascimento} anos em 2022, meus parabéns!!`);
     }else {
