@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    background-color: rgb(235, 233, 233);
+    text-align: center;
+    color: rgb(53, 53, 224);
+    padding-top:1vh ;
+    height: 5vh;
+    box-shadow: -2px 4px rgba(128, 128, 128, 0.37);
+}
+
+#navv{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUqpe1VaW8fis18Gdt5EUIgDA3q13VPt2HMw&usqp=CAU");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#nav{
+    background-image: url("https://as2.ftcdn.net/v2/jpg/01/71/34/85/1000_F_171348575_B3XRv2OcHir9SjsM9lixthxQqyxBYq0a.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+nav{
+    text-align: center;
+    height: 30vh;
+    background-image: url("https://wallpapers.com/images/featured/england-4q72n4jc1blpxdms.jpg");
+    line-height:25vh;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 9vh;
+    font-style: italic;
+    color: #fff;
+    
+}
+
+
+
+nav:hover{
+    transition: 1s;
+    font-size: 11vh;
+}
+
+section{
+    display: block;
+    height: 64vh;
+    background-color: rgba(241, 238, 238, 0.733);
+}
+
+div{
+    padding:1vh;
+    transition: 1s;
+    padding: 1vh 2vw;
+}
+
+div:hover{
+    transition: 1s;
+    background-color: #fff;
+    transform:scalex(1.2);
+    transform:scaley(1.1);
+    padding:4vh 2vw 2vh 5vw;
+    margin-bottom: 2vh;
+    box-shadow: -2px 4px rgba(128, 128, 128, 0.37);
+    box-shadow: 2px -2px 2px 2px rgba(128, 128, 128, 0.37);
+}
+
+div li{
+    list-style-type: none;
+    color: rgb(53, 51, 51);
+    font-size: 20px;
+    margin-bottom: 1vh;
+    font-style: italic;
+    transition: 1s;
+}
+
+div li strong{
+    font-size: 25px;
+    color: rgb(53, 53, 224);
+}
+
+h2{
+    margin-bottom: 1vh;
+}
+
+p{
+    line-height: 1.5;
+    text-align: justify;
+}
