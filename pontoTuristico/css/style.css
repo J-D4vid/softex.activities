@@ -99,3 +99,10 @@ h2{
     font-family: 'Courier New', Courier, monospace;
     text-align: justify;
 }
+footer ul{
+    box-shadow: 3px -3px 3px rgba(0, 0, 0, 0.384);
+    margin-top: 5vh;
+    padding:1vh 0vw 1vh 0vw;
+    display: flex;
+    justify-content: space-around;
+}
