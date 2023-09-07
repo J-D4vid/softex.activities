@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    
+}
+
+header{
+    padding-top:1vh ;
+    height: 4.5vh;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 3px 3px 5px rgba(34, 31, 100, 0.322);
+    margin-bottom: .3vh;
+}
+header strong{
+    color: rgb(5, 5, 189);
+}
+nav {
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    background-image: url("https://www.diariodepernambuco.com.br/static/app/noticia_127983242361/2023/05/04/928214/20230504173338971260a.JPG");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#dadosV{
+    display: flex;
+    padding: 3vh 2vw 6vh 6vw;
+    box-shadow: 3px -4px 4px rgba(34, 31, 100, 0.459);
+    transition: 1s;
+}
+#dadosV p{
+    width: 50vw;
+    text-align: justify;
+    border-right: 2px solid black;
+    padding-right: 1vw;
+    line-height: 1.5;
+    transition: 1s;
+}
+#dadosV ul{
+    width: 50vw;
+    list-style-type: none;
+    padding-left: 1vw;
+    line-height: 3;
+    font-size: 2vh;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color: rgb(99, 97, 97);
+}
+#dadosV strong{
+    color:rgb(18, 26, 68)
+}
+#dadosV:hover{
+    transform: scale(1.03);
+    background-color: rgb(255, 250, 245);
+    transition: .5s;
+}
+#dadosV p:hover{
+    width: 80vw;
+    font-size: 2.5vh;
+    transition: 1s;
+    background-color: antiquewhite;
+}
+h2{
+    text-align: center;
+    color: rgb(14, 14, 167);
+    margin-bottom: 3vh;
+}
+#pt{
+    width: 70vw;
+    height: 50vh;
+    display: flex;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.541);
+    border-radius:1rem;
+    padding-right: 1vw;
+    margin:auto;
+    background-image:linear-gradient(to bottom,rgba(255, 254, 254, 0.911),rgba(136, 134, 134, 0.363));
+}
+
+#img{
+    width: 50%;
+    height: 50vh;
+    padding: 1vh  1vw 1vh 2vw;
+   
+}
+
+#img img{
+   width: 30vw;
+   padding-right: 1vw;
+   border-right: 2px solid black;
+}
+#info{
+    width:60%; 
+    padding-top: 2vh;   
+    font-size: 2vh;
+    line-height: 2;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+}
