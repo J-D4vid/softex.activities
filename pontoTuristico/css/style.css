@@ -6,6 +6,7 @@
 }
 
 header{
+    background-color: rgba(255, 255, 255, 0.897);
     padding-top:1vh ;
     height: 4.5vh;
     text-align: center;
@@ -125,6 +126,9 @@ footer ul{
     padding:1vh 0vw 1vh 0vw;
     display: flex;
     justify-content: space-around;
+}
+#p2{
+    background-image:url("https://i.pinimg.com/originals/cb/9b/39/cb9b39c5420e9384d3bfbd787d244f27.png");
 }
 
 .dv{
