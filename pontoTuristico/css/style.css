@@ -12,9 +12,29 @@ header{
     font-family: 'Courier New', Courier, monospace;
     box-shadow: 3px 3px 5px rgba(34, 31, 100, 0.322);
     margin-bottom: .3vh;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 30vw;
 }
 header strong{
     color: rgb(5, 5, 189);
+}
+button{
+    margin-left: 20vw;
+    margin-bottom: 1vh;
+    border:none;
+    border-radius:.4rem;
+    width: 4vw;
+    cursor: pointer;
+    transition: 1s;
+}
+button:hover{
+    background-image: linear-gradient(to bottom right,#fff,rgba(11, 85, 221, 0.89));
+    transition: 1s;
+    
+}
+a{
+    text-decoration: none;
 }
 nav {
     width: 100vw;
@@ -105,4 +125,16 @@ footer ul{
     padding:1vh 0vw 1vh 0vw;
     display: flex;
     justify-content: space-around;
+}
+
+.dv{
+    transition: 1s;
+}
+.dv:hover{
+    transform: scale(1.05);
+    transition: .5s;
+}
+
+.dv img{
+    height: 80%;
 }
