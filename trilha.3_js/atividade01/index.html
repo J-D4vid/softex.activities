@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/scripts.js" defer></script>
+    <title>Cadastro</title>
+</head>
+<body>
+    <section>
+        <form action="#" id="form">
+            <input type="text" name="nome" id="nome" placeholder="nome">
+            <input type="number" name="salario" id="salario" placeholder="salario">
+            <input type="number" name="idade" id="idade" placeholder="idade">
+            <select name="diploma" id="diploma">
+                <option value="" default>você possui diploma?</option>
+                <option value="sim">possuo</option>
+                <option value="não">não possuo</option>
+            </select>
+
+            <button type="submit" id="bt" value="Enviar">Cadastrar</button>
+        </form>
+    </section>
+    <div id="popup">
+        <ul>
+            <li id="name"> o texto vem aqui...</li>
+            <li id="salary"> o texto vem aqui...</li>
+            <li id="age"> o texto vem aqui...</li>
+            <li id="p_diploma"> o texto vem aqui...</li>
+        </ul>
+        <button id="fechar">Close</button>
+    </div>
+</body>
+</html>
