@@ -11,7 +11,11 @@ bt.addEventListener('click', () =>{
         if(num2 !== 0){
             num = Math.floor(num1 / num2)
             let resto = num1 % num2
-            resultado.innerHTML= `resultado:${num}<br> resto:${resto}`
+            if(resto !== 0){
+                resultado.innerHTML= `resultado:${num}<br> resto:${resto}`
+            }else{
+                resultado.innerHTML=num
+            }
         }else{
             resultado.innerHTML = "divisão não pode ser feita, escolha um número diferente de 0"
         }
